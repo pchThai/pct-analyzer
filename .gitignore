@@ -1,1 +1,44 @@
-.aider*
+# General
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.env
+
+# Node / React (apps/ and packages/)
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+
+# Java / Spring Boot (services/)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Go (services/ and packages/)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+go.work.sum
+
+# Docker
+.docker/
+docker-compose.override.yml
