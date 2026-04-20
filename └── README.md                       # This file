@@ -8,5 +8,5 @@
 * Java 17+ & Maven/Gradle (for Spring Boot)
 * Go 1.21+ (for Go services)
 
-### Running Infrastructure
-To start the required databases and message brokers locally:
+### Setup Directories
+To generate the initial folder structure for the monorepo, run:
